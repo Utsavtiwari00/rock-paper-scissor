@@ -3,11 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="style.css">
-  <title>rock-paper-scissor</title>
+  <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-  
+  <div class="choicetext">
+    <p>Choose your choice</p>
+  </div>
+  <div class="choices">
+    <div class="rock">
+      <button>Rock</button>
+    </div>
+    <div class="paper">
+      <button>Paper</button>
+    </div>
+    <div class="scissor">
+      <button>Scissor</button>
+    </div>
+  </div>
+  <div class="selectedchoice">
+    <div class="comp">Computer choice is: </div>
+    <div class="human">Your choice is: </div>  
+  </div>
+  <div class="gamepts">
+    <div class="hscore">Your score is: 0</div>
+    <div class="Cscore">Computer score is: 0</div>
+  </div>
+  <div class="result"></div>
 </body>
 </html>
